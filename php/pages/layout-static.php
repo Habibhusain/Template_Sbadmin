@@ -1,6 +1,6 @@
 <?php
-include "inc/header.php";
-include "inc/sidebar.php";
+include __DIR__ ."/../inc/header.php";
+include __DIR__ ."/../inc/sidebar.php";
 ?>
 <main>
     <div class="container-fluid">
@@ -25,5 +25,5 @@ include "inc/sidebar.php";
     </div>
 </main>
 <?php
-include "inc/footer.php";
+include __DIR__ ."/../inc/footer.php";
 ?>

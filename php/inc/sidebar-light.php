@@ -29,7 +29,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="index.php">
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -41,10 +41,14 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.php">Static Navigation</a>
-                                    <a class="nav-link" href="layout-sidenav-light.php">Light Sidenav</a>
+                                    <a class="nav-link" href="<?php echo BASE_URL;?>/pages/layout-static.php">Static Navigation</a>
+                                    <a class="nav-link" href="<?php echo BASE_URL;?>/pages/layout-sidenav-light.php">Light Sidenav</a>
                                 </nav>
                             </div>
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/kategori/kategori.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Kategori
+                            </a>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                                 Pages
@@ -58,9 +62,9 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="login.php">Login</a>
-                                            <a class="nav-link" href="register.php">Register</a>
-                                            <a class="nav-link" href="password.php">Forgot Password</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/login.php">Login</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/register.php">Register</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/password.php">Forgot Password</a>
                                         </nav>
                                     </div>
                                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -69,9 +73,9 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="401.php">401 Page</a>
-                                            <a class="nav-link" href="404.php">404 Page</a>
-                                            <a class="nav-link" href="500.php">500 Page</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/401.php">401 Page</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/404.php">404 Page</a>
+                                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/500.php">500 Page</a>
                                         </nav>
                                     </div>
                                 </nav>
@@ -83,20 +87,20 @@
                             </a>
                             <div class="collapse" id="collapseForm" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="form-vertical.php" >
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/pages/form-vertical.php" >
                                         Form Vertical
                                     </a>
-                                    <a class="nav-link collapsed" href="form-horizontal.php">
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/pages/form-horizontal.php">
                                         Form Horizontal
                                     </a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Addons</div>
-                            <a class="nav-link" href="charts.php">
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/charts.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Charts
                             </a>
-                            <a class="nav-link" href="tables.php">
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/tables.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tables
                             </a>
